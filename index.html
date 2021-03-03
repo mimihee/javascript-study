@@ -1,0 +1,246 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+	<title>자바스크립트 연습</title>
+	<meta charset="UTF-8">
+	<meta name='Viewport'    content='width=device-width, initial-scale=1.0, maximum-scale=1.6, minimum-scale=1.0'>
+	<link rel="stylesheet" type="text/css" href="./css/reset.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/5e793da28a.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<div id="wrap">
+	<ul id='teb'>
+		<li><a href='#header'>메뉴바로가기</a></li>
+		<li><a href='#main'>메인바로가기</a></li>
+		<li><a href='#footer'>하단바로가기</a></li>
+	</ul>
+
+	<header id="header">
+		<div class="global-width">
+			<div class="global-gap">
+				
+				<nav>
+					<div class="nav-wrap">
+						<div class="nav-header">
+							<a href="index.html" class="logo">Web<br>Study</a>
+							<div class="nav-toggle">
+								<i class="fas fa-bars"></i>
+							</div>
+						</div>
+
+						<ul class="nav-links">
+							<li>
+								<a href="#home" class="smooth-btn">Home</a>
+							</li>
+							<li>
+								<a href="#technologies" class="smooth-btn">Technologies</a>
+							</li>
+							<li>
+								<a href="#references" class="smooth-btn">References</a>
+							</li>
+						</ul>
+	
+						<ul class="nav-icons">
+							<li>
+								<a href="https://www.google.co.kr/" target="_blank">
+									<i class="fab fa-google"></i>
+								</a>
+							</li>
+							<li>
+								<a href="https://github.com/" target="_blank">
+									<i class="fab fa-github"></i>
+								</a>
+							</li>
+						</ul>	
+					</div>
+				</nav>
+
+			</div>
+		</div>
+	</header>
+
+	<main id="main">
+		<section id="home">
+			<div class="global-width">
+				<div class="global-gap">
+					
+					<div class="slide-container">
+						<ul class="slide-wrap">
+							<li class="slide">
+								<div class="slide-title">
+									<h2>HTML</h2>
+									<p>HyperText Markup Language</p>
+								</div>
+							</li>
+							<li class="slide">
+								<div class="slide-title">
+									<h2>CSS</h2>
+									<p>Cascading Style Sheets</p>
+								</div>
+							</li>
+							<li class="slide">
+								<div class="slide-title">
+									<h2>JS</h2>
+									<p>JavaScripte</p>
+								</div>
+							</li>
+						</ul>
+
+						<div class="pause-play-wrap">
+							<a href="javascript:" class="pause-btn">
+								<i class="far fa-pause-circle"></i>
+							</a>
+							<a href="javascript:" class="play-btn">
+								<i class="far fa-play-circle"></i>
+							</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+		<section id="technologies" class="section">
+			<div class="global-width">
+				<div class="global-gap">
+					
+					<div class="title">
+						<h2>Technologies</h2>
+					</div>
+
+					<div class="technologies-wrap">
+						<div class="tab-btn-wrap">
+							<button class="tab-btn active" data-id="html">HTML</button>
+							<button class="tab-btn" data-id="css">CSS</button>
+							<button class="tab-btn" data-id="javascript">JAVSCRIPT</button>
+						</div>
+
+						<div class="technologies-content">
+							<div class="tech-content active" id="html">
+								<h3>HTML</h3>
+								<p>
+									하이퍼텍스트 마크업 언어(HyperText Markup Language, HTML)는 웹 페이지를 위한 지배적인 마크업 언어다.<br> 또한, HTML은 제목, 단락, 목록 등과 같은 본문을 위한 구조적 의미를 나타내는 것뿐만 아니라 링크, 인용과 그 밖의 항목으로 구조적 문서를 만들 수 있는 방법을 제공한다. 그리고 이미지와 객체를 내장하고 대화형 양식을 생성하는 데 사용될 수 있다. 
+								</p>
+								<p class="copy">
+									출처: 위키백과
+								</p>
+							</div>
+							<div class="tech-content" id="css">
+								<h3>CSS</h3>
+								<p>
+									CSS(Cascading Style Sheets)는 HTML이나 XML(SVG, XHTML 같은 XML 방언(dialect) 포함)로 작성된 문서의 표현을 기술하기 위해 쓰이는 스타일시트 언어입니다. CSS는 요소가 화면, 종이, 음성이나 다른 매체 상에 어떻게 렌더링되어야 하는지 기술합니다.
+								</p>
+								<p class="copy">
+									출처: MDN
+								</p>
+							</div>
+							<div class="tech-content" id="javascript">
+								<h3>JAVSCRIPT</h3>
+								<p>
+									JAVSCRIPT는 객체 기반의 스크립트 프로그래밍 언어이다.<br> 이 언어는 웹 브라우저 내에서 주로 사용하며, 다른 응용 프로그램의 내장 객체에도 접근할 수 있는 기능을 가지고 있다. 또한 Node.js와 같은 런타임 환경과 같이 서버 프로그래밍에도 사용되고 있다. 자바스크립트는 본래 넷스케이프 커뮤니케이션즈 코퍼레이션의 브렌던 아이크(Brendan Eich)가 처음에는 모카(Mocha)라는 이름으로, 나중에는 라이브스크립트(LiveScript)라는 이름으로 개발하였으며, 최종적으로 자바스크립트가 되었다.  
+								</p>
+								<p class="copy">
+									출처: 위키백과
+								</p>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+		
+		<section id="references" class="section">
+			<div class="global-width">
+				<div class="global-gap">
+
+					<div class="title">
+						<h2>References</h2>
+						<p class="sub-title">웹 개발 언어를 배우기 위한 사이트</p>
+					</div>
+
+					<div class="site-recomend-wrap">
+						<div class="site-recomend-box">
+							<div class="site-recomend-title">
+								<p>웹 개발에 필요한 정보들을 얻고 싶습니까?</p>
+								<a href="javascript:" class="search-btn recomend-btn">click <i class="fas fa-search"></i></a>
+							</div>
+							<div class="site-recomend-link">
+								<a href="https://developer.mozilla.org/en-US/" target="_blank" class="site-btn">웹 개발자를위한 문서 MDN<br>바로가기</a>
+							</div>
+						</div>
+						<div class="site-recomend-box">
+							<div class="site-recomend-title">
+								<p>모던 자바스크립트를 배우고 싶습니까?</p>
+								<a href="javascript:" class="pen-btn recomend-btn">click <i class="fas fa-pen"></i></a>
+							</div>
+							<div class="site-recomend-link">
+								<a href="https://developer.mozilla.org/en-US/" target="_blank" class="site-btn">모던 JavaScript 튜토리얼<br>바로가기</a>
+							</div>
+						</div>
+						<div class="site-recomend-box">
+							<div class="site-recomend-title">
+								<p>다양한 코딩 공부를 하고 싶습니까?</p>
+								<a href="javascript:" class="youtube-btn recomend-btn">click <i class="fab fa-youtube"></i></a>
+							</div>
+							<div class="site-recomend-link">
+								<a href="https://www.youtube.com/channel/UCvc8kv-i5fvFTJBFAk6n1SA" target="_blank" class="site-btn">생활코딩 유튜브<br>바로가기</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="plan" class="section">
+			<div class="global-width">
+				<div class="global-gap">
+
+					<div class="title">
+						<h2>To Do list</h2>
+						<p class="sub-title">공부 계획 작성하기</p>
+					</div>
+
+					<div class="todo-container">
+						<form class="todo-form">
+							<input type="text" id="todo" placeholder="책 보기..">
+							<button type="submit" class="todo-button"><i class="fas fa-plus"></i></button>
+						</form>
+	
+						<!-- todo list -->
+						<div class="todo-content">
+							<ul class="todo-list">
+								<!-- <li>
+									<span></span>
+									<button class="del-button"><i></button>
+								</li> -->
+							</ul>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+		
+	</main>
+
+	<div class='goTop-wrap'>
+		<a href='javascript:' class='goTop-Btn'>
+			<i class="fa fa-angle-up"></i>
+		</a>
+	</div>
+	
+
+
+
+	<script src="./js/header.js"></script>
+	<script src="./js/slide.js"></script>
+	<script src="./js/tab.js"></script>
+	<script src="./js/todo.js"></script>
+	<script src="./js/gotop.js"></script>
+</div> 
+</body>
+</html>
